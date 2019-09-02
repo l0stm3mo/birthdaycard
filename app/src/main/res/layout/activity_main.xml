@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <ImageView
+        android:id="@+id/image"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:src="@drawable/fireworks"
+        android:scaleType="centerCrop" />
+
+    <TextView
+        android:id="@+id/TextHalo"
+        android:textColor="#f2e3c9"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:fontFamily="@font/handanidemo"
+        android:text="For The Best Brother,"
+        android:textStyle="bold"
+        android:textSize="40sp"
+        android:paddingLeft="30dp"
+        android:paddingTop="50dp"
+        android:layout_alignParentTop="true"
+
+        />
+
+    <TextView
+        android:id="@+id/TextWelcome"
+        android:textColor="#f2e3c9"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text=" Happy Birthday Ben."
+        android:fontFamily="@font/handanidemo"
+        android:textStyle="bold"
+        android:textSize="50sp"
+        android:layout_marginTop="8dp"
+        android:paddingLeft="30dp"
+        android:layout_below="@id/TextHalo"
+
+        />
+    <TextView
+        android:id="@+id/Textregards"
+        android:textColor="#f2e3c9"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="From Your Lil Bro, Yodi"
+        android:fontFamily="@font/handanidemo"
+        android:textSize="30sp"
+        android:textStyle="bold"
+        android:paddingBottom="40dp"
+        android:paddingRight="30dp"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentBottom="true"
+
+        />
+
+</RelativeLayout>
+
